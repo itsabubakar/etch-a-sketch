@@ -1,0 +1,104 @@
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #f6fff8;
+  color: #1ea896;
+}
+
+.heading {
+  margin: 20px 0;
+}
+
+.grid-count {
+  margin: 10px 0;
+  color: #45484b;
+}
+
+.sketch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fas {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 25px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  min-width: 40px;
+  padding: 16px;
+  color: #1ea896;
+  box-shadow: inset 0 0 0 2px #616467;
+  background-color: transparent;
+}
+
+.fas:hover {
+  color: #fff;
+  background-color: #616467;
+}
+.fa-arrow-left {
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.fa-arrow-right {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.sketch-grid {
+  display: grid;
+  border: 2px solid #616467;
+  padding: 20px;
+  width: 500px;
+  /* height: 500px; */
+}
+
+.grid-container {
+  display: grid;
+}
+
+.grid-item {
+    margin: 1px;
+  width:  auto;
+  height: 30px;
+  background: rgb(70, 59, 59);
+}
+
+.reset {
+  text-transform: uppercase;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 15px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  min-width: 40px;
+  padding: 16px;
+  color: #1ea896;
+  box-shadow: inset 0 0 0 2px #616467;
+  background-color: transparent;
+  margin: 10px 0;
+}
+
+.reset:hover {
+  color: #fff;
+  background-color: #616467;
+}
