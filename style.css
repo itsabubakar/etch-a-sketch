@@ -65,7 +65,6 @@ body {
   border: 2px solid #616467;
   padding: 20px;
   width: 500px;
-  /* height: 500px; */
 }
 
 .grid-container {
@@ -74,8 +73,6 @@ body {
 
 .grid-item {
     margin: 1px;
-  width:  auto;
-  height: 30px;
   background: rgb(70, 59, 59);
 }
 

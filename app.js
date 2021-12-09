@@ -36,6 +36,9 @@ function Usergrid(startUp) {
     for (let j = 0; j < startUp; j++) {
       let box = document.createElement("div");
       box.className = "grid-item";
+      let size = (430 / startUp);
+      box.style.width = `${size}px`;
+      box.style.height = `${size}px`;
       row.appendChild(box);
     }
     userGrid.appendChild(row);
@@ -65,6 +68,9 @@ function Usergrid(startUp) {
     for (let j = 0; j < startUp; j++) {
       let box = document.createElement("div");
       box.className = "grid-item";
+      let size = (430 / startUp);
+      box.style.width = `${size}px`;
+      box.style.height = `${size}px`;
       row.appendChild(box);
     }
     userGrid.appendChild(row);
@@ -99,6 +105,9 @@ console.log(startUp);
     for (let j = 0; j < startUp; j++) {
       let box = document.createElement("div");
       box.className = "grid-item";
+      let size = (430 / startUp);
+      box.style.width = `${size}px`;
+      box.style.height = `${size}px`;
       row.appendChild(box);
     }
     grids.appendChild(row);
@@ -139,7 +148,7 @@ function getRandomNumber() {
   return Math.floor(Math.random() * hex.length);
 }
 
-console.log(4 + 4);
+console.log(480 / 16);
 
 
 // things I want to work on
